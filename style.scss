@@ -1,0 +1,53 @@
+$cor-h3: gold;
+$cor-p: #104c07;
+
+:root {
+    --bg-color-blue: blue;
+    --bg-color-h1: dark;
+    --bg-color-main: gray
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+img {
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 50px;
+    padding: 10px;
+  
+}
+
+header {
+    background-color: var(--bg-color-blue);
+}
+section{
+   background-color: var(--bg-color-main);
+   margin: 10px;
+}
+
+.container-rgb {
+    border: solid pink 5px;
+    padding: 20px;
+}
+
+.hexa, .hexadecimal{
+    color: #8FBC8F;
+}
+
+h1 {
+    background-color: var(--bg-color-h1);
+}
+
+
+h3 {
+    color: $cor-p;
+}
